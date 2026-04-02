@@ -390,7 +390,10 @@ public class Funcoes
                  System.out.println("\u001B[34mFicou "+total+"°C");
              break;
                 case 4:
-                     
+                 System.out.println("Digite quantos graus em °C");
+                 float Tk=sc.nextInt();
+                 total = Tk+ 273;
+                 System.out.println("\u001B[34mFicou "+total+"°K");
                 break;
             case 5:
                  System.out.println("Digite quantos graus em °K");
@@ -400,7 +403,11 @@ public class Funcoes
                  System.out.println("\u001B[34mFicou "+total+"°F");
              break;
                 case 6:
-                     
+                 System.out.println("Digite quantos graus em °F");
+                 Tk=sc.nextInt();
+                 total = (Tf- 32)/9;
+                 total = (total*5)+ 273;
+                 System.out.println("\u001B[34mFicou "+total+"°K");
                 break;
                 default: 
                     System.out.println("Erro. Escolha alguma opção certa");
