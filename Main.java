@@ -62,6 +62,25 @@ public class Main
             case 13:
                 ps.EscalaTermica();
             break;
+				case 14:
+                    ps.DilatacaoLinear();
+                break;
+            case 15:
+                ps.DilatacaoSuperficial();
+            break;
+                case 16:
+                    ps.DilatacaoVolumetrica();
+                break;
+            case 17:
+                ps.DilatacaoDosLiquidos();
+            break;
+                default:
+                    System.out.println("Erro. Digite um número válido");
+                break;
+		}
+		
+	}
+}
                 default:
                     System.out.println("Erro. Digite um número válido");
                 break;
