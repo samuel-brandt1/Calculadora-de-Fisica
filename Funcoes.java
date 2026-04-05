@@ -414,4 +414,20 @@ public class Funcoes
                 break;
          }
     }
+        // Parte 14
+    void DilatacaoLinear() {
+        
+    }
+    // Parte 15
+    void DilatacaoSuperficial() {
+        
+    }
+    // Parte 16
+    void DilatacaoVolumetrica() {
+        
+    }
+    // Parte 17
+    void DilatacaoDosLiquidos() {
+        
+    }
 }
